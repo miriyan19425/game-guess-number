@@ -50,9 +50,9 @@ function App(){
   return (
     <>
       <Info message={secNumInfo} />
-      <Input inpVal={inp} handleOnChange={handleChange}/>
-      <Button handleOnClick={handleCheck}>Check</Button>
-      <Button handleOnClick={handleNewGame}>New Game</Button>
+      <Input handleOnChange={handleChange} inpVal={inp}/>
+      <Button handleOnClick={handleCheck} label='Check' />
+      <Button handleOnClick={handleNewGame} label='New Game' />
     </>
   );
 }
