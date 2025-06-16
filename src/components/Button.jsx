@@ -1,5 +1,5 @@
-function Button({handleOnClick, children}){
-    return <button type='button' onClick={handleOnClick}>{children}</button>;
+function Button({handleOnClick, label}){
+    return <button type='button' onClick={handleOnClick}>{label}</button>;
 }
 
 export default Button;
